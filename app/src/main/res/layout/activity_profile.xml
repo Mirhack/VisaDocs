@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/svMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/llMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        tools:context=".ProfileActivity">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/title"
+            android:textStyle="bold"
+            android:textSize="25sp"/>
+
+        <TextView
+            style="@style/itemName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/full_name" />
+
+        <EditText
+            style="@style/itemText"
+            android:id="@+id/etFullName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text" />
+
+        <TextView
+            style="@style/itemName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/other_names" />
+
+        <EditText
+            style="@style/itemText"
+            android:id="@+id/etOtherNames"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text" />
+
+        <TextView
+            style="@style/itemName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/marital_status" />
+
+        <Spinner
+            android:paddingTop="10dp"
+            android:id="@+id/spMaritalStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/marital_statuses" />
+
+        <TextView
+            style="@style/itemName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/date_of_birth" />
+
+        <EditText
+            style="@style/itemText"
+            android:id="@+id/etDateOfBirth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="none"
+            android:clickable="true"
+            android:focusable="false" />
+
+        <TextView
+            style="@style/itemName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/residential_address" />
+
+        <EditText
+            style="@style/itemText"
+            android:id="@+id/etResidentialAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine" />
+
+        <TextView
+            style="@style/itemName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mobile_number" />
+
+        <EditText
+            android:id="@+id/etMobileNumber"
+            style="@style/itemText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone" />
+
+        <TextView
+            style="@style/itemName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/e_mail" />
+
+        <EditText
+            style="@style/itemText"
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress" />
+
+        <TextView
+            style="@style/itemName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/place_of_work" />
+
+        <EditText
+            style="@style/itemText"
+            android:id="@+id/etPlaceOfWork"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="textMultiLine" />
+
+        <TextView
+            style="@style/itemName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/position" />
+
+        <EditText
+            style="@style/itemText"
+            android:id="@+id/etPosition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine" />
+
+        <TextView
+            style="@style/itemName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/city_trip" />
+
+        <EditText
+            style="@style/itemText"
+            android:id="@+id/etCityTrip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine" />
+
+
+        <TextView
+            style="@style/itemName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/travel_dates" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/date_from" />
+
+            <EditText
+                style="@style/itemText"
+                android:id="@+id/etTravelDateFrom"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:inputType="none"
+                android:clickable="true"
+                android:focusable="false"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/date_to" />
+
+            <EditText
+                style="@style/itemText"
+                android:id="@+id/etTravelDateTo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:inputType="none"
+                android:clickable="true"
+                android:focusable="false" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/itemName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/get_insurance" />
+
+            <Switch
+                android:id="@+id/swInsurance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llInsuranceDates"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/date_from" />
+
+            <EditText
+                style="@style/itemText"
+                android:id="@+id/etInsuranceDateFrom"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:inputType="none"
+                android:clickable="true"
+                android:focusable="false" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/date_to" />
+
+            <EditText
+                android:id="@+id/etInsuranceDateTo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:inputType="none"
+                android:clickable="true"
+                android:focusable="false" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/itemName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/business_visit" />
+
+            <Switch
+                android:id="@+id/swBusinessVisit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llInvite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                style="@style/itemName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/inviting_company" />
+
+            <EditText
+                style="@style/itemName"
+                android:id="@+id/etInvitingCompany"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine" />
+
+            <TextView
+                style="@style/itemName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/inviting_company_address" />
+
+            <EditText
+                style="@style/itemName"
+                android:id="@+id/etInvitingCompanyAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine" />
+
+            <TextView
+                style="@style/itemName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/inviting_company_phone" />
+
+            <EditText
+                style="@style/itemText"
+                android:id="@+id/etInvitingCompanyPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="phone" />
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/itemName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/how_did_you_know" />
+
+        <Spinner
+            android:id="@+id/howDidYouKnow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/how_did_you_know" />
+
+        <Button
+            android:id="@+id/btnSend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:onClick="savePdf"
+            android:text="@string/save_button"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@color/colorHeader"/>
+    </LinearLayout>
+</ScrollView>

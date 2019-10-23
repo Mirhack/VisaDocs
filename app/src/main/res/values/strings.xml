@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Анкета</string>
+    <string name="full_name">ФИО</string>
+    <string name="title">Анкета</string>
+    <string name="other_names">Другие фамилии (в т.ч. девичья)</string>
+    <string name="marital_status">Семейное положение</string>
+    <string name="date_of_birth">Дата рождения</string>
+    <string name="residential_address">Адрес проживания</string>
+    <string name="mobile_number">Мобильный телефон</string>
+    <string name="e_mail">E-mail</string>
+    <string name="place_of_work">Место работы/учёбы</string>
+    <string name="position">Должность</string>
+    <string name="city_trip">Страна и город поездки</string>
+    <string name="travel_dates">Даты поездки</string>
+    <string name="date_from">С</string>
+    <string name="date_to">По</string>
+    <string name="ticket_booking">Есть бронь билетов</string>
+    <string name="hotel_booking">Есть бронь отеля</string>
+    <string name="get_insurance">Оформить страховку</string>
+    <string name="business_visit">Частный/деловой визит</string>
+    <string name="inviting_company">Название компании/Имя приглашающего лица</string>
+    <string name="inviting_company_phone">Телефон приглашающего лица/компании</string>
+    <string name="inviting_company_address">Адрес приглашающего лица/компании</string>
+    <string name="how_did_you_know">Откуда Вы о нас узнали</string>
+    <string name="save_button">Сохранить анкету</string>
+    <string-array name="marital_statuses">
+        <item>Холост/Не замужем</item>
+        <item>Женат/Замужем</item>
+        <item>Разведен/Разведена</item>
+        <item>Вдовец/Вдова</item>
+    </string-array>
+    <string-array name="how_did_you_know">
+        <item>Вконтакте</item>
+        <item>Instagram</item>
+        <item>2Gis</item>
+        <item>По рекомендации</item>
+        <item>Иное</item>
+    </string-array>
+</resources>

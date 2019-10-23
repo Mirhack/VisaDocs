@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <!--<item name="android:windowFullscreen">true</item>-->
+    </style>
+    <style name="itemName">
+        <item name="android:paddingTop">23dp</item>
+        <item name="android:textColor">@color/secondaryColor</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="itemText">
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">15dp</item>
+        <item name="android:backgroundTint">@color/text_light</item>
+    </style>
+    <style name="PrimaryButton" parent="Widget.AppCompat.Button.Colored"  >
+        <item name="android:backgroundTint">@color/secondaryColor</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="SecondaryButton" parent="Widget.AppCompat.Button.Colored" >
+        <item name="android:backgroundTint">@color/secondaryLightColor</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+</resources>

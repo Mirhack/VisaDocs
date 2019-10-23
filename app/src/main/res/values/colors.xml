@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="backgroundColor">#FFFDE7</color>
+    <color name="primaryColor">#f8faf6</color>
+    <color name="iconColor">#64B5F6</color>
+    <color name="primaryDarkColor">#cabf45</color>
+    <color name="colorAccent">#ffffff</color>
+    <color name="colorAccentLight">#ffffff</color>
+    <color name="secondaryColor">#039BE5</color>
+    <color name="secondaryLightColor">#8E2B32</color>
+    <color name="secondaryDarkColor">#009faf</color>
+    <color name="primaryTextColor">#000000</color>
+    <color name="secondaryTextColor">#000000</color>
+    <color name="text_auth">#333333</color>
+    <color name="text_light">#AAAAAA</color>
+    <color name="colorHeader">#00A9CA</color>
+    <color name="btnGreen">#62F164</color>
+    <color name="divider">#f0f0f4</color>
+    <color name="emptyField">#FF0000</color>
+
+
+    <!--auth theme-->
+    <color name="btnSignIn">#74bc54</color>
+</resources>
